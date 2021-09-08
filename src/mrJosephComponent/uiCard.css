@@ -1,0 +1,119 @@
+.mainContainer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.caption{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+    padding-bottom: 20px;
+    
+}
+
+.contentHolder{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.meContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+}
+
+.meCard{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.containerBoxesHolder{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(34, 34, 34);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px;
+    transform: scale(1.00);
+    transition: all 350ms;
+    color: white;
+    object-fit: cover;
+    padding: 5px
+  
+  }
+  .containerBoxesHolder:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    box-shadow: rgb(0 0 0 / 29%) 0px 16px 10px -10px,
+    rgb(0 0 0 / 33%) 0px 10px 10px 1px;
+  }
+  
+
+  
+.compContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+}
+
+.compCard{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.compText{
+    color: black;
+    font-weight: 600;
+}
+.meText{
+    color: black;
+    font-weight: 600;
+}
+
+.resultContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+    width: 350px;
+    height: 200px;
+    
+}
+
+.result{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.output{
+    padding-bottom: 20px;
+}
